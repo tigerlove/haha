@@ -1,4 +1,4 @@
 haha
 ====
 
-lean rails by writing a dashboard 
+数据可视化，像ducksboard
