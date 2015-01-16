@@ -1,0 +1,57 @@
+waitSeconds: 15
+
+paths:
+  application: 'application'
+  domReady: 'domReady'
+  underscore: 'underscore'
+  backbone: 'backbone' 
+  jquery: "jquery"
+  text: "text"
+  'highchart': 'highchart/highcharts'
+  "highchart/exporting": "highchart/exporting"
+  "highchart/more": "highchart/highcharts-more"
+  "highchart/solid-gauge": "highchart/modules/solid-gauge"
+  'hbs': 'hbs'
+  'Handlebars' : 'handlebars'
+  'i18nprecompile' : 'i18nprecompile'
+  "jquery-ui": "jquery-ui"
+  "backbone.syphon": "backbone.syphon"
+  "backbone.picky": "backbone.picky"
+  "gridster": 'girdster.jquery'
+  'bootstrap': 'bootstrap'
+  'slick': 'slick'
+  'json2': 'json2'
+  'ba-debug': 'ba-debug'
+
+shim:
+  'highchart':
+   deps: ["jquery"]
+   exports: 'Highcharts'
+  'highchart/exporting':
+   deps: ['highchart']
+  'highchart/more':
+   deps: ['highchart']
+  "highchart/solid-gauge":
+   deps: [ "highchart", "highchart/more",'highchart/exporting']
+  jquery:
+   exports: 'jquery'
+  underscore:
+   exports: '_'
+  backbone:
+   exports: 'Backbone'
+   deps: ['jquery', 'underscore','i18nprecompile', "json2"]
+  "backbone.syphon":
+   deps: ["backbone"]
+  'gridster':
+   deps: ['jquery']
+  "hbs":
+   deps: ["Handlebars",'i18nprecompile','underscore','json2']
+  'jquery-ui':
+   deps: ['jquery']
+  'gridster':
+   deps: ['jquery']
+  'slick':
+   deps: ['jquery']
+
+  priority: ['ba-debug', 'domReady']
+

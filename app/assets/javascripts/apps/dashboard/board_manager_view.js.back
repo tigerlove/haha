@@ -1,0 +1,46 @@
+define(['app',
+    "apps/dashboard/header_view",
+    "apps/dashboard/board_view",
+    'entities/board',
+    'apps/common/theme_switcher'
+    ],
+    function (App, 
+        Header,
+        BoardView, 
+        Board,
+        theme){
+    var BoardManagerView = Backbone.View.extend({
+    	initialize:function(){
+    		this.boards = new Board.BoardCollection();
+    		this.listenTo(this.boards, 'reset', this.addAll);
+    		this.childViews = {};
+    		this.collection.fetch();
+    		if(boardid){
+                boardsData.select(boardsData.get(boardid));
+            }else{
+                boardsData.select(boardsData.at(0));
+            } 
+    	},
+    	close:function(){
+    		_.each(this.childViews,function(view){
+    			view.remove();
+    		});
+    		this.remove();
+
+    	},
+    	addAll:function(){
+    		$("#header-holder").append('<div id="header-region"></div>');
+            var header = new Header({el: $("#header-region"), collection:this.collection});
+    		this.childViews.header = header;
+
+    		$("#board-holder").append('<div id="grid-region" class="container"></div>');
+            var board = new BoardView({model: this.collection.selected, el: $("#grid-region")});
+            board.render();
+    	},
+    	render:function(){
+    		return this;
+    	}
+    });
+    return BoardManagerView;
+	
+})

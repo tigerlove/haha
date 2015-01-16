@@ -1,0 +1,39 @@
+<div class="header">
+    <div class="navbar navbar-fixed-top bs-docs-nav" role="banner">
+        <div class="container">
+            <!-- Menu button for smallar screens -->
+            <div class="navbar-header">
+                <button class="navbar-toggle btn-navbar" type="button" data-toggle="collapse"
+                        data-target=".bs-navbar-collapse"><span>Menu</span></button>
+
+                <a href="#" class="navbar-brand"><img src="../images/favicon.png" width="28"/> 
+                    <span class="bold"> Board</span></a></div>
+
+            <nav class="collapse navbar-collapse bs-navbar-collapse">
+                <ul class="nav navbar-nav pull-left">
+                    <li class="js-addWidget"><a href="#directory" ><i class="fa fa-plus fa-6"></i> 组件</a></li>
+                   
+                </ul>
+                <!-- Links -->
+                <ul class="nav navbar-nav pull-right">
+
+                    <li class="dropdown pull-right user-data"><a href="#" id="login-name"><b
+                            class="caret pull-right"></b></a>
+                        <ul class="dropdown-menu">
+                            <!--<li><a href="#"> 个人设置</a></li>-->
+                            <li><a href="#admin"> 面板管理</a></li>
+                            <li class='js-theme'><a>主题切换</></li>
+                            <li role="presentation" class="divider"></li>
+                            <li><a href="/logout"> 退出</a></li>
+                        </ul>
+                    </li>
+                    <li class="pull-right mt10">
+                        <select id='current_board' class="form-control user-data js-current-board">
+
+                        </select>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,55 @@
+{
+    chart: {
+        type: 'column',
+        animation: Highcharts.svg,
+        marginRight: 10
+    },
+    title: {
+        text: (chartData.title || "")
+    },
+    subtitle: {
+        text: (chartData.subtitle || "")
+    },
+    xAxis: {
+{{!--         title: {
+            text: (chartData.xtitle || "")
+        }, --}}
+        categories: cate,
+        labels: {
+{{!--             rotation: parseInt(chartData.labelsRotation) || 0 --}}
+        }
+    },
+    yAxis: {
+
+{{!--         title: {
+            text: (chartData.ytitle || "")
+        } --}}
+    },
+    plotOptions: {
+        bar: {
+{{!--             dataLabels: {
+                enabled: (chartData.isDataLabels == 'true')
+            }, --}}
+            enableMouseTracking: true
+        }
+    },
+
+    legend: {
+        enabled: true
+    },
+    exporting: {
+        enabled: true
+    },
+    plotOptions: {
+        column: {
+{{!--             dataLabels: {
+                enabled: (chartData.isDataLabels && chartData.isDataLabels == 'true') ? true: false
+            } --}}
+        },
+        series: {
+            stacking: 'normal'
+        }
+    },
+
+    series: seriesData
+}

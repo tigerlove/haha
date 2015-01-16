@@ -1,0 +1,259 @@
+en:
+  signup: "Signup"
+  login: "Login"
+  logout: "Logout"
+  edit: "Edit"
+  submit: "Submit"
+  update: "Update"
+  save: "Save"
+  delete: "Delete"
+  add: "Add"
+  form_disable_with: "Posting..."
+  created_at: "created at"
+  updated_at: "updated at"
+  edited_at: "edited at"
+  replied_at: "replied at"
+  or: "or"
+  zh-CN: "Chinese(Simplified)"
+  en: "English"
+  newest_topics_title: "%{site_name} newest topics"
+  tagged_newest_topics_title: "%{site_name} newest topics tagged: %{tag}"
+  success_update: "Success update"
+
+  layouts:
+    settings:
+      settings_title: "%{name}'s settings"
+      account: "Account"
+      password: "Password"
+      profile: "Profile"
+    topbar:
+      home: "Home"
+      topics: "Topics"
+      search: "Search"
+      profiles: "Profile"
+      settings: "Settings"
+      admin_dashboard: "Admin dashboard"
+      active: "Active"
+      newest: "Newest"
+      marked: "Marked"
+      my: "My Topics"
+      replied: "Replied"
+    admin:
+      dashboard: "Dashboard"
+      users: "Users"
+      topics: "Topics"
+      replies: "Replies"
+      site: "Site settings"
+      fragments: "Fragments"
+      back_home: "Back home"
+  shared:
+    sidebar_login:
+      header: "Join Discuss?"
+      or: "or"
+    sidebar_profile:
+      signed_as: "Signed As"
+      unread_notifications: "unread notifications"
+  pagination:
+    truncate: "..."
+    next: "Next"
+    previous: "Prev"
+  homepage:
+    index:
+      more_topics: "» More topics"
+      create_topic: "Create topic"
+      site_status: "Site status"
+      users_count: "Users %{count}"
+      topics_count: "Topics %{count}"
+      replies_count: "Replies %{count}"
+      subscribe: "Subscribe"
+  people:
+    show:
+      edit_profile: "Edit profile"
+      person_status: "Person status"
+      topics_count: "Topics %{count}"
+      replies_count: "Replies %{count}"
+  users:
+    new:
+      already_have_account: "Already signup?"
+  user_sessions:
+    new:
+      name_or_email: "Name or Email"
+      not_signup_yet: "Not signup yet?"
+      remember_me: "Remember me"
+      password: "Password"
+  settings:
+    accounts:
+      show:
+        account_settings: "Account settings"
+    passwords:
+      show:
+        password_settings: "Password settings"
+    profiles:
+      show:
+        profile_settings: "Profile settings"
+        using_gravatar: "Using Gravatar"
+        change_email: "Change Email"
+        go_to_gravatar: "Go to Gravatar"
+  notifications:
+    notification:
+      mention:
+        mention_you_in: "mention you in"
+      topic_reply:
+        reply_your_topic: "reply you topic"
+    index:
+      no_notifications: "No notifications"
+      mark_all_as_read: "Mark all as read"
+      marking: "Marking..."
+  topics:
+    marks_count:
+      marked: "Marked"
+      mark: "Mark"
+      marker_count: "%{count} people marked"
+    index:
+      index: "Active"
+      topics: "Topics"
+      newest: "Newest"
+      marked: "Marked"
+      my: "My Topics"
+      tagged: "Tagged: %{tag}"
+      replied: "Replied"
+      no_topics: "No Topics"
+      settings: "Settings"
+      create_topic: "Create topic"
+      subscribe: "Subscribe"
+    show:
+      topics: "Topics"
+      post_reply: "Post reply?"
+      relate_topics: "Relate topics"
+      no_relate_topics: "No relate topics"
+    new:
+      topics: "Topics"
+      create_topic: "Create topic"
+    edit:
+      topics: "Topics"
+    form:
+      title_placeholder: 'Title'
+      tags_placeholder: 'Tags'
+  replies:
+    edit:
+      topics: "Topics"
+      edit_reply: "Edit reply"
+    new:
+      topics: "Topics"
+      new_reply: "New reply"
+  search:
+    show:
+      loading: "Loading..."
+  admin:
+    dashboard:
+      show:
+        more: "More"
+        topics: "Topics"
+        today_total_count: "Today %{today_count} / Total %{total_count}"
+        title: "Title"
+        user: "User"
+        replies_count: "Replies count"
+        replies: "Replies"
+        users: "Users"
+        content: "Content"
+        name: "Name"
+        profile_name: "Profile name"
+        email: "Email"
+        sign_up: "Sign up"
+    users:
+      index:
+        name: "User name"
+        profile_name: "Profile name"
+        email: "Email"
+        sign_up: "Sign up"
+      show:
+        users: "Users"
+        person_page: "Person page"
+        url: "Url"
+        description: "Description"
+        email: "Email"
+        delete_confirm: "Are you sure destroy user %{name} ? (Topics and Replies will be destroy together)"
+        topics: "Topics (%{count})"
+        replies: "Replies (%{count})"
+        action: "Action"
+        title: "Title"
+        replies_count: "Replies count"
+        created_at: "Created at"
+        content: "Content"
+      destroy:
+        delete_success: "success destroy user %{name}"
+    topics:
+      index:
+        title: "Title"
+        user: "User"
+        replies_count: "Replies count"
+      show:
+        topics: "Topics"
+        user: "User"
+        content: "Content"
+        marker_count: "Marker count"
+        replies_count: "Replies count"
+        delete_confirm: "Are you sure destroy topic %{title} ? (All replies will be destroy together)"
+        action: "Action"
+      destroy:
+        delete_success: "Success destroy topic %{title}"
+    replies:
+      index:
+        content: "Content"
+        user: "User"
+      show:
+        replies: "Replies"
+        topic: "Topic"
+        user: "User"
+        content: "Content"
+        delete_confirm: "Are you sure destroy reply？"
+        action: "Action"
+      destroy:
+        delete_success: "Success destroy reply"
+    sites:
+      show:
+        site_settings: 'Site settings'
+        site_name: 'Site name'
+    fragments:
+      index:
+        field: "Field"
+        description: "Description"
+        action: "Action"
+        home_mainbar_bottom: "Home mainbar bottom"
+        home_mainbar_bottom_description: ""
+        home_sidebar_bottom: "Home sidebar bottom"
+        home_sidebar_bottom_description: ""
+        topics_sidebar_bottom: "Topics sidebar bottom"
+        topics_sidebar_bottom_description: ""
+        footer: "Footer"
+        footer_description: "About your website"
+      edit:
+        fragments: "Fragments"
+
+  mongoid:
+    attributes:
+      user:
+        name: "Name"
+        email: "Email"
+        password: "Password"
+        password_confirmation: "Password confirmation"
+        locale: "Locale"
+        current_password: "Current password"
+      profile:
+        name: "Name"
+        avatar: "Avatar"
+        url: "Url"
+        description: "Description"
+      topic:
+        title: "Title"
+        content: "Content"
+        tag_string: "Tags"
+      reply:
+        content: "Content"
+      site:
+        name: "Site name"
+  errors:
+    no_allow_slash: "No allow slash"
+    messages:
+      tag_string: "Limit %{limit} tags"
+      current_password_no_match: 'Current password no match'

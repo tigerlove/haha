@@ -1,0 +1,259 @@
+zh-CN:
+  signup: "注册"
+  login: "登录"
+  logout: "退出"
+  edit: "编辑"
+  submit: "提交"
+  update: "更新"
+  save: "保存"
+  delete: "删除"
+  add: "添加"
+  form_disable_with: "提交中..."
+  created_at: "创建于"
+  updated_at: "更新于"
+  edited_at: "编辑于"
+  replied_at: "回复于"
+  or: "或者"
+  zh-CN: "中文（简体）"
+  en: "英文"
+  newest_topics_title: "%{site_name} 最新主题"
+  tagged_newest_topics_title: "%{site_name} 最新主题 标签：%{tag}"
+  success_update: "成功更新"
+
+  layouts:
+    settings:
+      settings_title: "%{name} 的设置"
+      account: "账户"
+      password: "密码"
+      profile: "个人资料"
+    topbar:
+      home: "首页"
+      topics: "话题"
+      search: "搜索"
+      profiles: "个人资料"
+      settings: "设置"
+      admin_dashboard: "管理面板"
+      active: "活跃"
+      newest: "最新"
+      marked: "收藏"
+      my: "我的话题"
+      replied: "回复过"
+    admin:
+      dashboard: "面板"
+      users: "用户"
+      topics: "主题"
+      replies: "回复"
+      site: "网站设置"
+      fragments: "页面片段"
+      back_home: "回到前台"
+  shared:
+    sidebar_login:
+      header: "加入讨论？"
+      or: "或者"
+    sidebar_profile:
+      signed_as: "登录为"
+      unread_notifications: "条未读消息"
+  pagination:
+    truncate: "..."
+    next: "下一页"
+    previous: "上一页"
+  homepage:
+    index:
+      more_topics: "» 更多话题"
+      create_topic: "创建话题"
+      site_status: "全站统计"
+      users_count: "用户数 %{count}"
+      topics_count: "话题数 %{count}"
+      replies_count: "回帖数 %{count}"
+      subscribe: "订阅"
+  people:
+    show:
+      edit_profile: "编辑个人资料"
+      person_status: "个人统计"
+      topics_count: "话题数 %{count}"
+      replies_count: "回帖数 %{count}"
+  users:
+    new:
+      already_have_account: "已经注册过？"
+  user_sessions:
+    new:
+      name_or_email: "用户名或邮箱"
+      not_signup_yet: "还未注册？"
+      remember_me: "记住我"
+      password: "密码"
+  settings:
+    accounts:
+      show:
+        account_settings: "账户设置"
+    passwords:
+      show:
+        password_settings: "密码设置"
+    profiles:
+      show:
+        profile_settings: "个人资料设置"
+        using_gravatar: "使用 Gravatar"
+        change_email: "修改邮箱"
+        go_to_gravatar: "到 Gravatar"
+  notifications:
+    notification:
+      mention:
+        mention_you_in: "提及了你"
+      topic_reply:
+        reply_your_topic: "回复了你的主题"
+    index:
+      no_notifications: "没有提醒"
+      mark_all_as_read: "标记所有为已读"
+      marking: "标记中…"
+  topics:
+    marks_count:
+      marked: "已收藏"
+      mark: "收藏"
+      marker_count: "%{count}人收藏"
+    index:
+      index: "活跃"
+      topics: "话题"
+      newest: "最新"
+      marked: "收藏"
+      my: "我的话题"
+      tagged: "标记为：%{tag}"
+      replied: "回复过"
+      no_topics: "没有话题"
+      settings: "设置"
+      create_topic: "创建话题"
+      subscribe: "订阅"
+    show:
+      topics: "话题"
+      post_reply: "回复话题？"
+      relate_topics: "相关话题"
+      no_relate_topics: "没有相关话题"
+    new:
+      topics: "话题"
+      create_topic: "创建话题"
+    edit:
+      topics: "话题"
+    form:
+      title_placeholder: '标题'
+      tags_placeholder: '标签'
+  replies:
+    edit:
+      topics: "话题"
+      edit_reply: "编辑回复"
+    new:
+      topics: "话题"
+      new_reply: "新回复"
+  search:
+    show:
+      loading: "载入中..."
+  admin:
+    dashboard:
+      show:
+        more: "更多"
+        topics: "主题"
+        today_total_count: "今天 %{today_count} / 总共 %{total_count}"
+        title: "标题"
+        user: "用户"
+        replies_count: "回复数"
+        replies: "回复"
+        users: "用户"
+        content: "内容"
+        name: "用户名"
+        profile_name: "名字"
+        email: "Email"
+        sign_up: "注册时间"
+    users:
+      index:
+        name: "用户名"
+        profile_name: "名字"
+        email: "Email"
+        sign_up: "注册时间"
+      show:
+        users: "用户"
+        person_page: "个人页面"
+        url: "网址"
+        description: "简介"
+        email: "Email"
+        delete_confirm: "确认删除用户 %{name} 吗？（主题和回复会被一并删除且不能恢复）"
+        topics: "主题（%{count}）"
+        replies: "回复（%{count}）"
+        action: "操作"
+        title: "标题"
+        replies_count: "回复数"
+        created_at: "创建时间"
+        content: "内容"
+      destroy:
+        delete_success: "成功删除用户 %{name}"
+    topics:
+      index:
+        title: "标题"
+        user: "用户"
+        replies_count: "回复数"
+      show:
+        topics: "主题"
+        user: "用户"
+        content: "内容"
+        marker_count: "收藏数"
+        replies_count: "回复数"
+        delete_confirm: "确定删除主题 %{title} 吗？（所有回帖会被一并删除）"
+        action: "操作"
+      destroy:
+        delete_success: "成功删除主题 %{title}"
+    replies:
+      index:
+        content: "内容"
+        user: "用户"
+      show:
+        replies: "回复"
+        topic: "主题"
+        user: "用户"
+        content: "内容"
+        delete_confirm: "确定删除回复吗？"
+        action: "操作"
+      destroy:
+        delete_success: "成功删除回复"
+    sites:
+      show:
+        site_settings: '网站设置'
+        site_name: '网站名'
+    fragments:
+      index:
+        field: "区域"
+        description: "描述"
+        action: "动作"
+        home_mainbar_bottom: "首页主栏底部"
+        home_mainbar_bottom_description: ""
+        home_sidebar_bottom: "首页边栏底部"
+        home_sidebar_bottom_description: ""
+        topics_sidebar_bottom: "话题边栏底部"
+        topics_sidebar_bottom_description: ""
+        footer: "全站底部"
+        footer_description: "网站信息"
+      edit:
+        fragments: "页面片段"
+
+  mongoid:
+    attributes:
+      user:
+        name: "用户名"
+        email: "邮箱"
+        password: "密码"
+        password_confirmation: "密码确认"
+        locale: "语言"
+        current_password: "当前密码"
+      profile:
+        name: "名称"
+        avatar: "头像"
+        url: "网站"
+        description: "描述"
+      topic:
+        title: "标题"
+        content: "内容"
+        tag_string: "标签"
+      reply:
+        content: "内容"
+      site:
+        name: "网站名"
+  errors:
+    no_allow_slash: "不能包含斜杠"
+    messages:
+      tag_string: "Tag 不能超过%{limit}个"
+      current_password_no_match: '当前密码不匹配'

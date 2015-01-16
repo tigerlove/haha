@@ -1,0 +1,37 @@
+ {
+
+    chart: {
+        plotBackgroundColor: null,
+        plotBorderWidth: null,
+        plotShadow: false
+    },
+    title: {
+        text:  (chartData.title || "")
+    },
+    subtitle: {
+        text:   (chartData.subtitle || "")
+    },
+    tooltip: {
+        pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
+    },
+    exporting: {
+        enabled: true
+    },
+    plotOptions: {
+        pie: {
+            allowPointSelect: true,
+            cursor: 'pointer',
+            dataLabels: {
+                enabled: false
+            },
+            showInLegend: true
+        }
+    },
+    series: [
+        {
+            type: 'pie',
+            data: pieJson
+
+        }
+    ]
+}

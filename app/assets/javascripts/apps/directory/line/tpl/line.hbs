@@ -1,0 +1,89 @@
+<div class="bd ">
+    <div class="pull-left zoom">
+        <nav class="sidebar"><a href="#" style="display:none">标准设置</a> <a class="active js-tab1">添加数据</a><a
+                class="js-tab2">样式配置</a></nav>
+    </div>
+    <div class="appearance pull-right zoom">
+        <form class="form-horizontal" role="form">
+            <div class="js-tab1-div">
+                <div class="eidt-app "><strong class="main-title">在这个控件显示数据</strong>
+                    <div class="widget-data">
+                        <input type="text" class="field-pull_url" value="" name="dataUrl" placeholder="data url">
+                        <select class="category chzn-done" style="display: block;" name="interval">
+                            <option value="10000">每隔10秒</option>
+                            <option value="60000">每分钟</option>
+                            <option value="1800000">每三十分钟</option>
+                        </select>
+                    </div>
+                    <br/>
+                    <br/>
+                    <strong class="main-title">控件在面板上占位单元格</strong>
+
+                    <div class="widget-data">
+
+                        <select class="category " style="display: block;margin-top:10px;" name="size">
+                            <option value="2_2">两行两列</option>
+                            <option value="2_3">两行三列</option>
+                            <option value="3_2">三行两列</option>
+                            <option value="3_3">三行三列</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="pull-right editimg"><img src="../images/chart/line.jpg" width="320" height="166">
+                </div>
+            </div>
+            <div class="js-tab2-div" style="display: none">
+                <div class="eidt-app " style="width: 730px">
+                    <div style="float:left">
+                        <strong class="main-title">标题</strong>
+
+                        <div class="widget-data">
+                            <input type="text" name="title" value="">
+                        </div>
+                        <strong class="main-title">副标题</strong>
+
+                        <div class="widget-data">
+                            <input type="text" name="subtitle" value="">
+                        </div>
+                        <strong class="main-title">X轴</strong>
+
+                        <div class="widget-data">
+                            <input type="text" name="xtitle" value="">
+                        </div>
+                        <strong class="main-title">Y轴</strong>
+
+                        <div class="widget-data">
+                            <input type="text" name="ytitle" value="">
+                        </div>
+                    </div>
+                    <div style="float:right">                        
+                            <strong class="main-title">条目个数</strong>
+
+                            <div class="widget-data">
+                                <input type="text" name="limit" value="">
+                            </div>
+                            <strong class="main-title">是否显示标签</strong>
+
+                            <div class="widget-data">
+                                <select class="category " style="display: block;margin-top:10px;" name="isDataLabels">
+                                    <option value="false">不显示</option>
+                                    <option value="true">显示</option>
+                                </select>
+                            </div>
+                            <strong class="main-title">标签旋转</strong>
+
+                            <div class="widget-data">
+                                <select class="category " style="display: block;margin-top:10px;" name="labelsRotation">
+                                    <option value="360">0度</option>
+                                    <option value="-30">-30度</option>
+                                    <option value="30">30度</option>
+                                    <option value="90">90度</option>
+                                </select>
+                            </div>
+                    </div>
+                </div>
+            </div>
+            <button type="submit" class="btn-subico btn-submit">保存设置此控件</button>
+        </form>
+    </div>
+</div>
