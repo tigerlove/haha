@@ -2,7 +2,7 @@ haha
 ====
 数据监控面板（像ducksboard）
 
-![Orient](https://github.com/tigerlove/haha/doc/demo.png)
+![screenshot](https://raw.githubusercontent.com/tigerlove/haha/master/doc/demo.png)
 ## Requirements
 
 * Ruby2.1.0
